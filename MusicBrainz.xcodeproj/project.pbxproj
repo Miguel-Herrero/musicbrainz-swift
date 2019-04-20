@@ -13,6 +13,7 @@
 		E34939C7226B1CF800A071CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34939C6226B1CF800A071CD /* Assets.xcassets */; };
 		E34939CA226B1CF800A071CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34939C8226B1CF800A071CD /* LaunchScreen.storyboard */; };
 		E34939D5226B1CF900A071CD /* MusicBrainzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34939D4226B1CF900A071CD /* MusicBrainzTests.swift */; };
+		E3A425FE226B2849001EA35C /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A425FD226B2849001EA35C /* ResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E34939D0226B1CF900A071CD /* MusicBrainzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicBrainzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34939D4226B1CF900A071CD /* MusicBrainzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBrainzTests.swift; sourceTree = "<group>"; };
 		E34939D6226B1CF900A071CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A425FD226B2849001EA35C /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E34939C6226B1CF800A071CD /* Assets.xcassets */,
 				E34939C8226B1CF800A071CD /* LaunchScreen.storyboard */,
 				E34939CB226B1CF800A071CD /* Info.plist */,
+				E3A425FD226B2849001EA35C /* ResultsTableViewController.swift */,
 			);
 			path = MusicBrainz;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A425FE226B2849001EA35C /* ResultsTableViewController.swift in Sources */,
 				E34939C2226B1CF800A071CD /* ViewController.swift in Sources */,
 				E34939C0226B1CF800A071CD /* AppDelegate.swift in Sources */,
 			);
@@ -298,6 +302,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -352,6 +357,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
